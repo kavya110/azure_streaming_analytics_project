@@ -15,13 +15,8 @@ This project demonstrates a real-time streaming analytics pipeline built on Micr
 
 ### This project uses the following Architecture.
 
-Logic App (Event Generator)
-↓
-Azure Event Hubs (Streaming Ingestion)
-↓
-Azure Stream Analytics (Real-time Processing)
-↓
-Azure Data Lake Storage Gen2 (Output Storage)
+<img width="763" height="394" alt="image" src="https://github.com/user-attachments/assets/7da79be4-0044-4ad5-b5f7-cf14c4935f27" />
+
 
 
 # Process
