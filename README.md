@@ -10,6 +10,20 @@ This project demonstrates a real-time streaming analytics pipeline built on Micr
 3) Azure Stream Analytics => For real time stream processing and aggregation
 4) Azure Data Lake Storage Gen2 => Stores processed streaming outputs.
 
+
+# Architecture
+
+### This project uses the following Architecture.
+
+Logic App (Event Generator)
+↓
+Azure Event Hubs (Streaming Ingestion)
+↓
+Azure Stream Analytics (Real-time Processing)
+↓
+Azure Data Lake Storage Gen2 (Output Storage)
+
+
 # Process
 
 1) Create the Azure Event Hub Service for Input Streaming Data
@@ -197,6 +211,16 @@ The job is up and running
 
 
 We can find changes in the number of logs in the above 2 screenshots.
+
+
+
+
+# Key Learnings :
+
+1) Designed a real-time streaming pipeline using Azure services (Azure Event Hubs, Stream Analytics)
+2) Using Stream Analytics SQL for aggregating the input live data.
+3) Processing the results into ADLS Gen2
+   
 
 
 
